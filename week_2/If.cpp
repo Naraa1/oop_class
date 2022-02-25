@@ -1,15 +1,18 @@
 using namespace std;
 int main()
 {
-	int a ;
+	 int a ;
+	int b;
 	cout << "a=";
 	cin >> a;
-	if (a>=0)
+	cout<<"b=";
+	cin>>b;
+	if (a>b)
 	{
-		cout << "a>0";
+		cout << "a>b";
 
 	}
 	else {
-		cout << "a<0";
+		cout << "a<b";
 	}
 }
